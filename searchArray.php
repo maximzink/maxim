@@ -17,9 +17,5 @@ foreach ($arr as $a){
     continue;
 
 
+   }
 }
-
-
-
-
- }
