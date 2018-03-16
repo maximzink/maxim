@@ -3,24 +3,23 @@
 $citiez = ['London','Paris','Berlin', 'Moscov'];
 
 
-search ($car, 5);
+search ($car, 23);
+search ($citiez,"London");
 
- function search ($arr, $find){
+function search ($arr, $find){
 
 foreach ($arr as $a){
-
-
-    if ($a == $find){
-
+    if ($a === $find){
+        echo $a. " find it";
         return true;
-        echo "You find it";
-    break;
     }
-    return false;
-    echo "You dont Find";
+    //echo "You dont Find";
+    continue;
+
+
 }
 
 
 
- }
 
+ }
